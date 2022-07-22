@@ -3,6 +3,6 @@ const button = document.querySelector('.button');
 const link = document.querySelector('.link');
 
 button.addEventListener('click', function () {
-    link.href = input.value;
+    link.href = 'https://' + input.value;
     input.value = '';
 });
